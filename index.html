@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='styles.css'>
+    <script src="https://kit.fontawesome.com/798b2c8e08.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header id='header'>
+      <div class="header-img">
+        <img src='https://circlemmeats.com/assets/images/logo-circlem.png' id='logo'/>
+      </div>
+      <nav id='nav-bar'>
+        <ul>
+          <li><a href='#About' class='nav-link anchor'>About</a></li>
+          <li><a href='#Learn' class='nav-link anchor'>Learn</a></li>
+          <li><a href='#Bundles' class='nav-link anchor'>Bundles</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class='form-container'>
+      <h2>Stay up to date with our weekly blog!</h2>
+      <form id='form' action='https://www.freecodecamp.com/email-submit' method='POST'>
+        <input  type='email' id='email' placeholder='Enter your email address' required>
+        <input type='submit' id='submit'>
+      </form>
+    </div>
+    <h1 class="content-header">Why Circle M Meats?</h1>
+    <div class="content-container">
+        <section id="About">
+            <div class="about-section">
+                <div class="icon">
+                    <i class="fa-solid fa-box"></i>
+                </div>
+                <div class="about-description">
+                    <h2>Premium Packaging</h2>
+                    <p>Our packaging is the best of the best! We use the highest quality barrier film, 
+                        giving our products a shelf life up to 5x what you get at the grocery store! </p>
+                </div>
+            </div>
+            <div class="about-section">
+                <div class="icon">
+                    <i class="fa-solid fa-earth-americas"></i>
+                </div>
+                <div class="about-description">
+                    <h2>Sustainably Produced</h2>
+                    <p>Our process has been finely tuned with sustainability and regernative agriculture in mind.
+                       Our vertical operation has a carbon-neutral footprint.
+                    </p>
+                </div>
+            </div>
+            <div class="about-section">
+                <div class="icon">
+                    <i class="fa-solid fa-cow"></i>
+                </div>
+                <div class="about-description">
+                    <h2>Humane</h2>
+                    <p>Our team is educated in agricultural sciences to maximize the quality & environment in which 
+                        our cattle are raised.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="Learn">
+            <h1 class="content-header">What is Dry Age?</h1>
+            <div class="video-div">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JUpdet6tnmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <hr>
+        <section id="Bundles">
+            <h1 class="content-header">Bundles</h1>
+            <div class="bundles">
+                <div class="bundle-option">
+                    <div class="bundle-header">Option 1</div>
+                    <h1 class="bundle-price">$99</h1>
+                    <ul class="bundle-list">
+                        <li class='bundle-item'>2x: Lorem</li>
+                        <li class='bundle-item'>1x: Ipsum</li>
+                        <li class='bundle-item'>1x: Dolor</li>
+                    </ul>
+                    <button class="select-button">Select</button>
+                </div>
+                <div class="bundle-option">
+                    <div class="bundle-header">Option 2</div>
+                    <h1 class="bundle-price">$149</h1>
+                    <ul class="bundle-list">
+                        <li class='bundle-item'>3x: Lorem</li>
+                        <li class='bundle-item'>1x: Ipsum</li>
+                        <li class='bundle-item'>2x: Dolor</li>
+                    </ul>
+                    <button class="select-button">Select</button>
+                </div>
+                <div class="bundle-option">
+                    <div class="bundle-header">Option 3</div>
+                    <h1 class="bundle-price">$199</h1>
+                    <ul class="bundle-list">
+                        <li class='bundle-item'>4x: Lorem</li>
+                        <li class='bundle-item'>2x: Ipsum</li>
+                        <li class='bundle-item'>3x: Dolor</li>
+                    </ul>
+                    <button class="select-button">Select</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <ul>
+            <li class="footer-option">Privacy</li>
+            <li class="footer-option">Terms</li>
+            <li class="footer-option">Contact</li>
+        </ul>
+        <span >Copyright 2023, Circle M Meats</span>
+    </footer>
+  </body>
+</html>
